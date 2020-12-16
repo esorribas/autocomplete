@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Live search example</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <meta name="author" content="Esteban Sorribas">
+        <meta name="Description" content="Live search example">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap"
+            rel="stylesheet"
+        />
+
+        <link href="static/css/main.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <h1 class="text-center">Live search example</h1>
+        </header>
+
+        <div class="container text-center">
+            <label>Find users</label>
+            <input
+                type="text"
+                id="search"
+                placeholder="Type your search here..."
+                autocomplete="off"
+            />
+            <div id="search_container" class="text-left"></div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script src="static/js/typeahead.js"></script>
+    </body>
+</html>
